@@ -1,8 +1,9 @@
 CodeCamp#6 Online
+
 Sompop Laya
+
 Lab : แบบฝึกหัด
-ให้ลอง
-เพิ่ม property
+ให้ลองเพิ่ม property
 	- เก็บข้อมูลวันที่สร้าง user ในระบบ
 เพิ่ม method 
 -  logout
