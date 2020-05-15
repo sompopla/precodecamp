@@ -1,0 +1,181 @@
+.clearfix {
+    clear: both;
+}
+
+/* News Layout */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #84a8eb;
+}
+.selection-1 {
+    text-align: center;
+    width: 1000px;
+    height: 80px;
+    background-color: yellow;
+    margin: 0px auto;
+}
+.selection-2 {
+    margin-top: 20px;
+    margin-left: 98px;
+    text-align: center;
+    width: 1000px;
+    height: 30px;
+
+    background-color: yellow;
+}
+.selection-3 {
+    margin-top: 20px;
+    margin-left: 98px;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    background-color: yellow;
+    float: left;
+}
+.selection-4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 460px;
+    height: 300px;
+    text-align: center;
+    background-color: yellow;
+    float: left;
+}
+.selection-5 {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    background-color: yellow;
+    float: left;
+}
+.selection-6, .selection-7 {
+    margin-top: 20px;
+    margin-left: 98px;
+    width: 1000px;
+    height: 150px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.selection-8 {
+    margin-top: 20px;
+    margin-left: 98px;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    background-color: yellow;
+}
+
+/* End News Layout */
+
+.grid-container {
+    width: 100%;
+    background-color: #84a8eb;
+}
+
+.item1 { grid-area: header;}
+.item2 { grid-area: category;}
+.item3 { grid-area: main;}
+.item4 { grid-area: welcome;}
+.item5 { grid-area: saleprice;}
+.item6 { grid-area: category2;}
+.item7 { grid-area: footer;}
+
+.grid-content {
+    display: grid;
+    grid-template-areas: 
+        'header header header header header header'
+        'category main main main main welcome'
+        'saleprice saleprice saleprice saleprice saleprice saleprice'
+        'category2 category2 category2 category2 category2 category2'
+        'footer footer footer footer footer footer';
+        grid-gap: 10px;       
+        padding: 10px;
+        margin: 0 100px;
+}
+
+.grid-content > div {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.item1, .item7 {
+    height: 80px;
+}
+
+.item2, .item3, .item4 {
+    height: 300px;
+}
+
+.item5, .item6 {
+    height: 200px;
+}
+
+
+.flex-container {
+    box-sizing: border-box;
+    background-color: #84a8eb;
+}
+.flex-content {
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header {
+    height: 150px;
+    background-color: yellow;
+}
+.navbar {
+    display: flex;
+    background-color: yellow;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.slide-Bar {
+    width: 980px;
+    height: 830px;
+    margin-top: 10px;
+    float: left;
+
+}
+.article {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+.tag-hit {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+.room {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+.news {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+
+.flex-2 > div {
+    background-color: yellow;
+}
+
+
